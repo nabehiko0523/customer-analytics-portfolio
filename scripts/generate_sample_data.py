@@ -13,7 +13,7 @@ cusotmer_ids = [f"CUST{str(i).zfill(3)}" for i in range(1, n_customers + 1)]
 
 # Generate orders
 orders = []
-start_date = datetime(2024, 1, 1)
+start_date = datetime(2025, 1, 1)
 
 for i in range(n_orders):
     cusotmer_id = np.random.choice(cusotmer_ids)
