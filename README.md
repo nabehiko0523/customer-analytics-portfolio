@@ -16,6 +16,16 @@ Implemented analyses:
 - Customer Lifetime Value (LTV)
 - Purchase Funnel Analysis
 
+### 2. Generate sample data
+**Location**: `scripts/generate_sample_data.py`
+Generate transaction sample data using python logarithmic distribution table
+
+**Data spec**
+- Number of customers : 100
+- Number of orders : 500
+- Duration : 2024/01 - 2025/02
+- Category : Electronics, Clothing, Books, Food, Sports
+
 **Tech Stack**: SQL (Snowflake dialect), dbt (planned)
 
 ## 🛠 Skills Demonstrated
