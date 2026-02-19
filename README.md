@@ -3,7 +3,7 @@
 Data & Analytics implementations focused on CDP and marketing analytics.
 
 ## 🎯 Purpose
-Demonstrating practical implementation of customer data analysis, segmentation, and BI solutions for CDP/BI consulting.
+Demonstrating practical implementation of customer data analysis, segmentation, and BI solutions for CDP/BI.
 
 ## 📊 Projects
 
@@ -35,10 +35,43 @@ Generate transaction sample data using python logarithmic distribution table
 - **Domain**: Manufacturing, Customer Data Platform (CDP)
 
 ## 📝 Learning Journey
-This portfolio is built as preparation for CDP/BI consulting role, with focus on:
+This portfolio is built as preparation for CDP/BI role, with focus on:
 - Data platform architecture
 - Marketing & customer analytics
 - BI implementation best practices
+
+## 📊 Analysis Implemented
+
+### 1. RFM Analysis ✅
+- Customer segmentation by Recency, Frequency, Monetary value
+- Implementation: Python, DuckDB, Snowflake (ready)
+
+### 2. Cohort Retention Analysis ✅
+- Track customer retention by acquisition cohort
+- Calculate monthly retention rates
+- Implementation: Python, SQL
+
+### 3. Customer Lifetime Value (LTV) ✅
+- Predict 12-month and 24-month customer value
+- Segment customers by predicted LTV
+- Churn risk assessment
+- Implementation: Python, SQL
+
+## 🛠 Platform Support
+
+| Platform | Status | Use Case |
+|----------|--------|----------|
+| **Python (Pandas)** | ✅ Active | Local development, prototyping |
+| **DuckDB** | ✅ Active | Local SQL execution, testing |
+| **Snowflake** | 📋 Ready | Production deployment |
+| **BigQuery** | 📋 Planned | GCP projects |
+
+## 📈 Results
+
+Sample analysis outputs available in `data/` folder:
+- `rfm_results.csv` - Customer segmentation
+- `cohort_retention_results.csv` - Retention analysis
+- `ltv_analysis_results.csv` - Lifetime value predictions
 
 ---
 *Last Updated: [2026/02/18]*
