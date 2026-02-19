@@ -1,0 +1,5 @@
+ltv_segment,customer_count,avg_orders,avg_order_value,avg_frequency,avg_lifetime_months,avg_historical_ltv,avg_predicted_ltv_12m,total_predicted_value,avg_days_since_last,segment_pct
+Platinum,35,5.94,15124.65,0.94,7.15,83530.43,155596.68,5445883.73,123.6,35.71
+Gold,35,5.37,10412.53,0.69,8.43,54817.0,79216.42,2772574.79,95.83,35.71
+Silver,26,3.85,6588.63,0.58,7.76,25363.04,39415.18,1024794.6,96.27,26.53
+Bronze,2,2.0,6507.75,0.2,10.13,13015.5,15427.74,30855.48,67.5,2.04
