@@ -1,0 +1,9 @@
+customer_segment,customer_count,segment_pct,avg_recency_days,avg_frequency,avg_monetary,avg_order_value
+Cant Lose Them,6,6.12,137.3,3.8,91624.0,23924.0
+Champions,14,14.29,61.4,7.9,90323.0,11471.0
+Big Spenders,4,4.08,64.8,5.0,76037.0,15207.0
+At Risk,17,17.35,131.6,5.8,70225.0,12050.0
+Loyal Customers,16,16.33,80.9,6.8,60310.0,8892.0
+Need Attention,11,11.22,83.7,4.4,34090.0,7737.0
+Promising,13,13.27,66.0,3.3,32788.0,9485.0
+Lost,17,17.35,180.3,2.8,26423.0,9272.0
