@@ -59,12 +59,26 @@ This portfolio is built as preparation for CDP/BI role, with focus on:
 
 ## 🛠 Platform Support
 
-| Platform | Status | Use Case |
-|----------|--------|----------|
-| **Python (Pandas)** | ✅ Active | Local development, prototyping |
-| **DuckDB** | ✅ Active | Local SQL execution, testing |
-| **Snowflake** | 📋 Ready | Production deployment |
-| **BigQuery** | 📋 Planned | GCP projects |
+| Platform | Status | Use Case | Performance |
+|----------|--------|----------|-------------|
+| **Python (Pandas)** | ✅ Implemented | Local development, prototyping | ~500ms (500 rows) |
+| **DuckDB** | ✅ Implemented | Local SQL execution, testing | ~200ms (500 rows) |
+| **Snowflake** | ✅ **Implemented** | **Production deployment** | **1.4s (500 rows)** |
+| **BigQuery** | 📋 Planned | GCP projects | TBD |
+
+### Snowflake Implementation
+
+- **Database:** CUSTOMER_ANALYTICS
+- **Tables:** TRANSACTIONS (500 rows)
+- **Analyses:** RFM Segmentation
+- **Screenshots:** [docs/screenshots/snowflake_*.png](docs/screenshots/)
+- **Setup Guide:** [docs/snowflake_setup.md](docs/snowflake_setup.md)
+
+**Key Features:**
+- ✅ Enterprise-grade data warehouse
+- ✅ Scalable for production workloads
+- ✅ Result consistency across all platforms
+- ✅ Cloud-native architecture
 
 ## 📈 Results
 
