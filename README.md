@@ -73,5 +73,39 @@ Sample analysis outputs available in `data/` folder:
 - `cohort_retention_results.csv` - Retention analysis
 - `ltv_analysis_results.csv` - Lifetime value predictions
 
+# Sales forecasting model
+
+## Background
+
+Added Data driven sales forecasting model.
+
+## Issue
+- Sales planning is based on experiencem, not algorithm.
+- No seasonality consideration
+- Weak connection to inventory planning in terms of data.
+
+## Approach
+
+### Data
+- Sample data generation by 3 years monthly sales result.
+- Sales terend by product categories
+
+### Features
+- Trend
+- Seasonality
+
+### Model
+- Liner Regression
+- Evaluation indicator: MAE, RMSE, MAPE
+
+## How to implement
+```bash
+# Generate sample data 
+python scripts/generate_sales_data.py
+
+# Implemet forecasting model
+python scripts/sales_forecast_model.py
+```
+
 ---
-*Last Updated: [2026/02/18]*
+*Last Updated: [2026/02/25]*
